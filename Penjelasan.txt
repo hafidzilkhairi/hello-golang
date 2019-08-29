@@ -1,0 +1,25 @@
+1.
+-langkah awal dari starting point adalah send SYN
+- ada dua kemungkinan, menerima flag syn atau terabaikan
+- jika menerima flag syn dan juga menerima ack maka koneksi terhubung dengan mengirimkan flag ack juga
+- jika hanya menerima flag syn maka akan masuk ke state active close dan time wait
+- ketika koneksi yang terhubung telah selesai melakukan data transfer maka juga akan memasuki state active close dan time wait
+- setelah time wait dan mencapai timeout, maka koneksi terputus
+
+2.
+- foor loop melakukan perulangan dengan jumlah yang telah di tentukan, dan memiliki titik henti lain, yaitu ketika ada break
+- conditional syntax adalah if else, yaitu menerima sebuah perbandingan logika dan melakukan baris kode sesuai hasil perbandingan tersebut
+
+3. 
+- array adalah keadan dimana suatu variable mempunyai index serta nilai dalam index tersebut
+- function merupakan baris baris kode yang dideklarasikan dengan syntax func sehingga dapat dipaggil berulang kali
+
+4. 
+- struct merupakan type data bentukan yang isi typenya dapat dikostumisasi
+- method merupakan suatu fungsi yang terdapat didalam struct atau kelas/class
+
+5. 
+- multiple return merupakan suatu keadaan dimana fungsi dapat mengembalikan nilai lebih dari 1 nilai
+- command line merupakan keadaan dimana suatu nilai dapat di oper dari inputan user ke dalam kodingan ketika pemanggilan program
+
+6. simple web application berfungsi untuk mengadakan layanan server sehingga user dapat mengaksesnya melalui protokol http
